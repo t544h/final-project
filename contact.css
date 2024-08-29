@@ -1,0 +1,75 @@
+#contact{
+    color: #f6d167;
+}
+
+
+.contact1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+}
+.ph1{
+    display: flex;
+    flex-direction: column;
+}
+.ph1 h4{
+    font-size: 30px;
+    color: #5b5b5b;
+}
+.ph1 h2{
+    font-size: 55px;
+}
+.ph1 h6{
+    font-size: 20px;
+    color: #5b5b5b;
+}
+.mm{
+    border-bottom: 1%;
+    border-bottom: 3px solid #38b6ff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 60px;
+    background: transparent;
+    margin-top: 2%;
+}
+::placeholder{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#submit{
+    margin: 10%; 
+    font-size: 20px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #7469b6;
+    box-shadow: 0px 5px 10px black;
+}
+#submit:hover{
+    background-color: #ddd;
+}
+.ph img{
+    animation: headshake 1s ease-in-out infinite;
+    margin: 10%;
+}
+@keyframes headshake {
+    0% {
+        transform: translateX(0);
+    }
+    6.5% {
+        transform: translateX(-6px) rotateY(-9deg);
+    }
+    18.5% {
+        transform: translateX(5px) rotateY(7deg);
+    }
+    31.5% {
+        transform: translateX(-3px) rotateY(-5deg);
+    }
+    43.5% {
+        transform: translateX(2px) rotateY(3deg);
+    }
+    50% {
+        transform: translateX(0);
+    }
+}

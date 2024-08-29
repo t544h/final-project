@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>cart shopping step1</title>
+        <link rel="stylesheet" href="cart1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="BookHaven-removebg-preview.png">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Book Haven</title>
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <img src="bg2.jpg" >
+        <div class="background">
+           <div class="progress-container">
+                <div class="aa">
+                    <div class="progress-bar">
+                        <div class="step active">
+                            <div class="icon-container">
+                                <span class="icon">🛒</span>
+                            </div>
+                            <p>Cart</p>
+                        </div>
+                        <div class="step">
+                            <div class="icon-container">
+                                <span class="icon">🚚</span>
+                            </div>
+                            <p>Shipping</p>
+                        </div>
+                        <div class="step">
+                            <div class="icon-container">
+                                <span class="icon">💳</span>
+                            </div>
+                            <p>Payment</p>
+                        </div>    
+                    </div>
+                    <div class="progress-line"></div>
+                </div>
+                <div class="achat">
+                    <div class="total-price">
+                        <span> Total price : </span>
+                        <span class="total"> 0</span><span> DT </span>
+                    </div>
+                    <div class="list-products">
+                        <div class="card-body">
+                            <div class="card" style="width: 18rem">
+                              <img
+                                src="im18.jpg"
+                                alt="it ends with us" style="height: 210px; width: 225px; padding-left: 30px;"
+                              />
+                              <div class="cart-body">
+                                <h4 class="unit-price">18 DT</h4>
+                                <div>
+                                  <i class="fas fa-plus-circle"></i>
+                                  <span class="quantity">0</span>
+                                  <i class="fas fa-minus-circle"></i>
+                                </div>
+                                <div class="trli">
+                                  <i class="fas fa-trash-alt"></i>
+                                  <i class="fas fa-heart"></i>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card" style="width: 18rem">
+                              <img src="im13.jpg" class="card-img-top" alt="ugly love" style="height: 210px; width: 225px;padding-left: 30px;"/>
+                              <div class="cart-body">
+                                <h4 class="unit-price">20 DT</h4>
+                                <div>
+                                  <i class="fas fa-plus-circle"></i>
+                                  <span class="quantity">0</span>
+                                  <i class="fas fa-minus-circle"></i>
+                                </div>
+                                <div class="trli">
+                                  <i class="fas fa-trash-alt"></i>
+                                  <i class="fas fa-heart"></i>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="prev" onclick="changeStep(-1)" disabled>Previous</button>
+                    <a href="cart3.html"><button id="next" onclick="changeStep(1)">Next</button></a>
+                </div>
+                
+            </div>
+        </div>
+        <script src="cart1.js"></script>
+        <script src="cart2.js"></script>
+        
+    </body>
+</html>
